@@ -1,0 +1,23 @@
+body {
+  font-size: 12px;
+  text-align: center;
+}
+
+header,
+section,
+aside,
+footer {
+  border: 3px dotted #000000;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+section,
+aside {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+  vertical-align: middle;
+}

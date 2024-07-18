@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: yellow;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  color: white;
+  padding: 10px;
+  height: 30px;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}

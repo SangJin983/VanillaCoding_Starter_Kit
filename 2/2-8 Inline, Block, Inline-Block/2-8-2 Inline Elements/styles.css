@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: yellow;
+  padding: 20px;
+}
+
+.italic-text {
+  font-style: italic;
+  background-color: green;
+}
+
+.bold-text {
+  font-weight: bold;
+  background-color: green;
+}
