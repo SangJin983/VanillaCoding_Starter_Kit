@@ -1,0 +1,12 @@
+.thick {
+  font-weight: bold;
+}
+
+.alert {
+  color: red;
+}
+
+#blue-box {
+  background-color: blue;
+  color: white;
+}
