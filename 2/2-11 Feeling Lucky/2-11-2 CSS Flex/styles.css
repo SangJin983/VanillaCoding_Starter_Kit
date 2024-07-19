@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 10px;
+  padding: 10px;
+  border: 2px dotted black;
+}
+
+footer {
+  margin-bottom: 0;
+}
