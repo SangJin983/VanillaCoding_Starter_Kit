@@ -1,0 +1,12 @@
+.input {
+  position: relative;
+  display: inline-block;
+}
+
+.input img {
+  position: absolute;
+  right: 5px;
+  width: 12px;
+  height: 12px;
+  margin-top: 4px;
+}
