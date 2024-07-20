@@ -4,6 +4,11 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  height: max-content;
 }
 
 .input {
@@ -36,24 +41,30 @@ body {
   flex: 1;
 }
 
-.offered {
-  background-color: #f1f3f4;
-  padding: 10 5px;
-  text-align: left;
-  color: gray;
-  font-size: 12px;
-}
-
-.footer-box {
+footer {
   background-color: #f1f3f4;
   padding: 0;
   text-align: left;
-  border-top: 1px solid #dadce0;
+  font-size: 15px;
 }
 
-.footer-content {
-  max-width: 100%;
-  padding: 0 5px;
+.footer-first {
+  padding: 15px 30px;
+  background-color: #f1f3f4;
+  text-align: left;
   color: gray;
-  font-size: 12px;
+}
+
+.footer-second {
+  max-width: 100%;
+  padding: 15px 30px;
+  color: gray;
+  border-top: 1px solid #dadce0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-second-content {
+  display: flex;
+  gap: 30px;
 }

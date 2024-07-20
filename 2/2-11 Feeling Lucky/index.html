@@ -25,7 +25,6 @@
 
       .logo-box {
         text-align: center;
-        margin-top: 100px;
       }
 
       .logo-box img {
@@ -45,33 +44,39 @@
   <body>
     <header><a>Gmail</a><a>Images</a><a class="sign-in">Sign in</a></header>
 
-    <div class="logo-box">
-      <img src="logo.jpeg" />
-      <!-- ./ 표시는 생략가능 -->
-    </div>
-
-    <div class="input-box">
-      <div class="input">
-        <input type="text" />
-        <img src="glass.png" />
+    <main>
+      <div class="logo-box">
+        <img src="logo.jpeg" />
+        <!-- ./ 표시는 생략가능 -->
       </div>
-    </div>
 
-    <div class="search">
-      <a class="button">Google Search</a>
-      <a class="button">I'm Feeling Lucky</a>
-    </div>
+      <div class="input-box">
+        <div class="input">
+          <input type="text" />
+          <img src="glass.png" />
+        </div>
+      </div>
 
-    <div class="flex-spacer"></div>
+      <div class="search">
+        <a class="button">Google Search</a>
+        <a class="button">I'm Feeling Lucky</a>
+      </div>
+    </main>
 
-    <div class="offered">
-      Google offered in: 한국어
-    </div>
-
-    <footer class="footer-box">
-      <p class="footer-content">
-        Footer
-      </p>
+    <footer>
+      <div class="footer-first">Google offered in: 한국어</div>
+      <div class="footer-second">
+        <div class="footer-second-content">
+          <div>a1</div>
+          <div>b1</div>
+          <div>c1</div>
+        </div>
+        <div class="footer-second-content">
+          <div>a2</div>
+          <div>b2</div>
+          <div>c2</div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
