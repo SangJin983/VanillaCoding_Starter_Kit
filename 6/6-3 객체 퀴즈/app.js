@@ -151,8 +151,6 @@ function add(x, y) {
 const result = add(1, 5);
 console.log(result); // 6
 
-*/
-
 function echo(word, times) {
   return word.repeat(times);
 }
@@ -160,3 +158,96 @@ function echo(word, times) {
 const result = echo("수박", 3);
 
 console.log(result); // 수박수박수박
+
+
+function sayHello() {
+  console.log("Hello, World!");
+  // 호출되면 "Hello, World!"가 실행되지만 반환값은 정의되지 않았다. defined.
+}
+
+const result = sayHello();
+
+console.log(result);
+// "Hello, World"
+// undefined
+
+function isPositive(num) {
+  if (num > 0) {
+    return true;
+  } // if 조건을 충족하는 즉시, 함수가 넘어가기 때문에.
+
+  return false;
+}
+
+const result = isPositive(1);
+
+console.log(result); // true
+
+function getGrade(score) {
+  if (score >= 90) {
+    return "A";
+  } else if (score >= 80) {
+    return "B";
+  } else {
+    return "C";
+  }
+}
+
+const result = getGrade(80);
+
+console.log(result); // B
+
+function countEven(numbers) {
+  let count = 0;
+
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 0) {
+      count++;
+    }
+    // `==`에서는 자료형이 달라도, 타입 변환을 하여 수행한다.
+  }
+
+  return count;
+}
+
+const result = countEven([1, 2, 3, 4, 5, 6]);
+
+console.log(result); // 3
+
+function combineValues(a, b) {
+  return a + b;
+}
+
+const list = [combineValues("a", "bc"), combineValues("d","ef")];
+const result = list[1];
+
+console.log(result); // def
+
+function divideByTwo(num) {
+  return num * 2;
+}
+
+function square(num) {
+  return num * num;
+}
+
+function calculate(x) {
+  if (x > 0) {
+    return square(x);
+  } else {
+    return divideByTwo(x);
+  }
+}
+
+const result = calculate(5);
+console.log(result); // 25 
+
+*/
+
+function sayWord(word) {
+  return word.toLowerCase();
+}
+
+const result = `Hello, ${sayWord("World")}`;
+
+console.log(result); // Hello, world
